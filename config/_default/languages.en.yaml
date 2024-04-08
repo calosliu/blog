@@ -1,0 +1,15 @@
+contentDir: content/en
+languageName: English
+languageCode: en-US
+weight: 1
+menu:
+  main:
+    - name: Search
+      url: search
+      weight: 1
+    - name: Categories
+      url: /categories
+      weight: 5
+    - name: Tags
+      url: /tags
+      weight: 10

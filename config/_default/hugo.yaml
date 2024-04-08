@@ -1,0 +1,47 @@
+baseURL: https://calosliu.github.io/
+title: Calos Liu's Blog
+theme: ["PaperMod"]
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+params:
+  contact:
+    email: work@congliu.dev
+  defaultTheme: auto
+  displayFullLangName: true
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCounts: true
+
+  ShowToc: true # Show Table of Contents
+  TocOpen: false
+  ShowCodeCopyButtons: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    threshold: 0.4
+    distance: 1000
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:work@congliu.dev"
+    - name: "github"
+      url: "https://github.com/calosliu"
+
+  startYear: 2024
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+enableRobotsTXT: false # Disable search enegin scraping

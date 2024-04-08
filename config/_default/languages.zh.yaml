@@ -1,0 +1,15 @@
+contentDir: content/zh
+languageName: 中文
+languageCode: zh-CN
+weight: 2
+menu:
+  main:
+    - name: 搜索🔍
+      url: search
+      weight: 1
+    - name: 分类🗂
+      url: /categories
+      weight: 5
+    - name: 标签🏷️
+      url: /tags
+      weight: 10
