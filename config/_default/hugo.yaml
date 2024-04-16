@@ -45,3 +45,6 @@ outputs:
 
 enableEmoji: true
 enableRobotsTXT: false # Disable search enegin scraping
+
+staticDir:
+  - "static"
