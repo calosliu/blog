@@ -2,6 +2,7 @@ backend:
   name: "github"
   repo: "calosliu/calosliu.github.io"
   branch: "main"
+  base_url: https://sveltia-cms-auth.calos-liu.workers.dev
 
 media_folder: "static/images"
 public_folder: "/images"
